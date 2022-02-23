@@ -5,6 +5,10 @@ require_once 'Teacher.php';
 $t = new Teacher("Kim","Vestergård","Mogensen");
 $t->setClass("ØIOE211");
 $t->setClass("opboi20ed601");
+$t->setClass("fizzminister");
+$t->setClass("fatteringenting");
+
+
 echo $t->getClass();
 echo $t->__toString();
 
